@@ -157,26 +157,4 @@ This project demonstrates a basic, cost-effective method for root user monitorin
 - **No Pre-built Integrations:** Requires manual effort to integrate with other tools like SIEMs or security orchestration platforms.
 - **May Not Meet Advanced Compliance Needs:** Specific compliance standards may require more granular logging, analytics, and reporting features.
 
-### Commercial Root User Monitoring Tools (e.g., Cloud Conformity, Trend Micro Cloud One, Datadog)
-
-**Advantages:**
-
-- **Advanced Features:** Offer a richer feature set, including:
-  - **Contextual analysis and anomaly detection:** Intelligent algorithms to identify unusual or suspicious root user activities beyond simple API calls.
-  - **Detailed Dashboards and Reporting:** Visualize trends, track compliance, and generate comprehensive reports.
-  - **Built-in Incident Response Workflows:** Automate containment actions and integrate with ticketing systems or security orchestration platforms.
-  - **Compliance and Audit Trails:** Specifically designed to meet various compliance standards and provide robust audit trails.
-  - **Pre-built Integrations:** Seamlessly integrate with other security tools, SIEMs, and collaboration platforms.
-  - **User Behavior Analytics (UBA):** Analyze user patterns and identify deviations that could indicate compromised credentials.
-- **Managed Service:** Vendors handle the underlying infrastructure, maintenance, and updates.
-- **Scalability and Reliability:** Designed for large-scale deployments, ensuring high availability and data integrity.
-- **Professional Support:** Access to expert support and documentation.
-
-**Disadvantages:**
-
-- **Cost:** Incur additional costs in the form of subscription fees, potentially increasing with usage and feature adoption.
-- **Vendor Lock-in:** May become dependent on the specific vendor's platform and ecosystem.
-- **Complexity:** Can be complex to configure and manage, requiring specialized expertise, though often with simplified interfaces.
-- **Potential Data Privacy Concerns:** Requires sharing some data with a third-party vendor, raising potential privacy and security considerations.
-
 **Conclusion:** This project offers a valuable starting point for understanding and implementing basic root user monitoring on AWS. However, for robust, scalable, and feature-rich security monitoring, particularly in production or regulated environments, commercial solutions are generally the preferred choice, complementing or extending the capabilities provided here.
