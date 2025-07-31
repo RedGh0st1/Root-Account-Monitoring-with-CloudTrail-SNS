@@ -134,27 +134,11 @@ As part of this project, it is encouraged to document the steps and observations
 - **Screenshot of the CloudTrail log entry for the root account activity** (found in the CloudTrail console or the S3 bucket).
 - **Screenshot of your SNS topic and subscription configuration in the AWS Console**.
 - **Screenshot of the alert received via email or SMS**.
-- **A short write-up: "What I Did and What I Learned":** Summarize the steps performed, the challenges faced (if any), and the key insights or knowledge gained about AWS security, monitoring, and Terraform during this project.
 
-## Comparison with Commercial Tools
+## "What I Did and What I Learned"
 
-This project demonstrates a basic, cost-effective method for root user monitoring using native AWS services. However, commercial root user monitoring and security tools offer a more comprehensive and feature-rich approach.
+Summarize the steps performed, the challenges faced (if any), and the key insights or knowledge gained about AWS security, monitoring, and Terraform during this project.
 
-### This project (CloudTrail + SNS + EventBridge)
+## Conclusion:
 
-**Advantages:**
-
-- **Cost-effective:** Leverages existing AWS services, often within the free tier or at minimal cost.
-- **Simple to set up:** Relatively straightforward to configure if you're familiar with basic AWS services and Terraform.
-- **Direct control:** You have complete ownership and control over the monitoring infrastructure and logic.
-- **Customizable:** Easy to adapt the EventBridge rule and potentially extend with AWS Lambda for more advanced alerting.
-
-**Disadvantages:**
-
-- **Limited Features:** Provides only basic detection and notification; lacks advanced analytics and incident response capabilities found in commercial tools.
-- **Requires Manual Configuration:** Even with Terraform, initial setup and ongoing management (e.g., confirming SNS subscriptions, reviewing logs) require manual effort.
-- **Scalability Challenges:** Might become more complex to manage at scale, particularly in complex multi-account environments.
-- **No Pre-built Integrations:** Requires manual effort to integrate with other tools like SIEMs or security orchestration platforms.
-- **May Not Meet Advanced Compliance Needs:** Specific compliance standards may require more granular logging, analytics, and reporting features.
-
-**Conclusion:** This project offers a valuable starting point for understanding and implementing basic root user monitoring on AWS. However, for robust, scalable, and feature-rich security monitoring, particularly in production or regulated environments, commercial solutions are generally the preferred choice, complementing or extending the capabilities provided here.
+This project offers a valuable starting point for understanding and implementing basic root user monitoring on AWS. However, for robust, scalable, and feature-rich security monitoring, particularly in production or regulated environments, commercial solutions are generally the preferred choice, complementing or extending the capabilities provided here.
