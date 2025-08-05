@@ -27,3 +27,21 @@ variable "cloudsec_cloudtrail_name" {
     type        = string
     default     = "cloudsec-cloudtrail"
 }
+
+variable "iam_cloudsec_cloudtrail_role_name" {
+    description = "Name of the IAM role for CloudTrail"
+    type        = string
+    default     = "cloudsec-cloudtrail-delivery-role"
+}
+
+variable "iam_cloudsec_cloudtrail_policy_name" {
+    description = "Name of the IAM policy for CloudTrail"
+    type        = string
+    default     = "cloudsec-cloudtrail-delivery-policy"
+}
+
+variable "cloudsec_cloudwatch_event_rule_name" {
+    description = "Name of the CloudWatch Event Rule for CloudTrail"
+    type        = string
+    default     = "cloudsec-cloudtrail-event-rule"
+}
